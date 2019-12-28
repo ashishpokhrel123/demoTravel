@@ -1,0 +1,151 @@
+body{
+	font-family: 'Oswald',Roboto;
+}
+
+.list-style-none{
+	list-style: none;
+	margin-bottom: 0;
+}
+
+.box-shadow{
+	box-shadow: 2px 2px 2px #e7e7e7;
+}
+
+#video{
+	width: 100%;
+	height: 20rem;
+}
+
+#video iframe{
+	height: 100%;
+	width: 100%;
+}
+
+.header{
+	background-color: #0054a4;
+}
+
+.img-link{
+	position: relative;
+	display: inline-block;
+}
+
+.img-link a{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.header-logo-section img{
+	width: 70px;
+	height: 140px;
+}
+
+.logo-header{
+	justify-content: center;
+	flex-direction: column;
+}
+
+.logo-header h1{
+	font-size: 3em;
+}
+
+.logo-header h6{
+	font-size: 16px;
+}
+
+
+.pages li a{
+	height: 44px;
+	line-height: 44px;
+	border-right:1px solid black;
+    color: #0054a4;
+    font-size: 1.2em;
+    margin: 10px 0;
+    display: inline-block;
+    padding:0 20px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.channels .pages li{
+	background-color: #0054a4;
+}
+
+.channels .pages li a{
+	color: #fff;
+	border-right:none;
+	border-left:1px solid black;
+	font-weight: bold;
+	height: 38px;
+	line-height: 38px;
+	font-size: 0.9em;
+}
+.channels .pages li:first-child a{
+	border-left: none;
+}
+
+.channels .pages li.active{
+	background-color: #cb2c31;
+}
+
+.section-title{
+	font-size: 1.5em;
+}
+
+.sidebar-widget-title{
+	border-bottom: 1px solid #fff;
+}
+
+.sidebar .match-description{
+	background-color: #f4f4f4;
+}
+
+.sidebar .match-description h2 {
+    font-size: 1.4rem;
+}
+
+.standing-table, .standing-table .time-date{
+	font-size: 14px;
+}
+
+.standing-table .teams{
+	font-size: 21px;
+}
+
+.standing-table .teams small{
+	font-size: 16px;
+}
+
+.disclaimer-text{
+	font-size: 10px;
+	color: #888;
+}
+
+.watch-links a{
+	color: #0054a4;
+	font-size: 1.22em;
+}
+
+.match-description h2{
+	border-bottom: 1px solid #555;
+    padding-bottom: 15px;
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.match-description p{
+	font-size: 1.15em;
+    color: #545454;
+}
+
+footer{
+	border-top: 10px solid #0054a4;
+}
+
+footer img{
+	margin: 8px;
+}
+
