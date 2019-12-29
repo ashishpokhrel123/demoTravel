@@ -27,7 +27,7 @@ body{
 
 
 /*navigation bar css*/
-.menu{
+/*.menu{
   position: fixed;
   top: 0;
   left: 0;
@@ -80,6 +80,49 @@ body{
 .button.on .line.bottom{
 	width: 40px;
 	transform: translateX(-10px) translateY(17px)rotate(-45deg);
+}*/
+
+/*navigation bar css*/
+
+/*navigation bar css*/
+nav.navbar{
+	padding:0;
+	/*background-color: #2a2a2a;*/
+	/*border-bottom:3px solid #ff803f;*/
 }
 
+nav ul li{
+	position: relative;
+}
+
+nav ul li a{
+	font-size: 1.2rem;
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+	position: relative;
+}
+
+nav ul li:after{
+	content: '';
+	position: absolute;
+	display: inline-block;
+	height: 3px;
+	width: 0px;
+	background-color: #ff803f;
+	bottom:0;
+	left: 0;
+	z-index: 999;
+}
+
+nav ul li:hover:after{
+	width: 60%;
+	transition: 0.3s;
+	left:0;
+}
+
+nav ul li a:hover{
+	color: #ff803f;
+	text-decoration: none;
+}
 /*navigation bar css*/

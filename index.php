@@ -16,7 +16,7 @@
 	<header>
 		<div>
 			<?php include('header-component/top-nav-colored.php'); ?>
-			  <div class="menu">
+			  <!-- <div class="menu">
 			    <ul class="d-flex flex-column">
 			       <li><a href=""><i class="fa fa-terminal"></i>home</a></li>
 			       <li><a href=""><i class="fa fa-codepen"></i>about</a></li>
@@ -29,7 +29,27 @@
 			      <div class="line first top"></div>
 			      <div class="line second bottom"></div>
 			    </div>
-			  </div>
+			  </div> -->
+
+
+			    <nav class="navbar navbar-expand-sm px-5">
+
+				  <!-- Links -->
+				  <ul class="navbar-nav">
+				    <li class="nav-item">
+				      <a class="pr-5 primary-color" href="#">Home</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="pr-5 primary-color" href="#">Tour</a>
+				    </li>
+				    <li class="nav-item">
+				      <a class="pr-5 primary-color" href="#">About</a>
+				    </li>
+				  </ul>
+
+				</nav>
+
+
 		</div>		
 	</header>
 
