@@ -7,7 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="css/slick-slider.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!-- <link rel="stylesheet" type="text/css" href="css/font-awesome.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/owl-carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/owl-theme.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
 </head>
@@ -15,7 +16,6 @@
 	
 	<header>
 		<div>
-			<?php include('header-component/top-nav-colored.php'); ?>
 			  <!-- <div class="menu">
 			    <ul class="d-flex flex-column">
 			       <li><a href=""><i class="fa fa-terminal"></i>home</a></li>
@@ -31,27 +31,13 @@
 			    </div>
 			  </div> -->
 
-
-			    <nav class="navbar navbar-expand-sm px-5">
-
-				  <!-- Links -->
-				  <ul class="navbar-nav">
-				    <li class="nav-item">
-				      <a class="pr-5 primary-color" href="#">Home</a>
-				    </li>
-				    <li class="nav-item">
-				      <a class="pr-5 primary-color" href="#">Tour</a>
-				    </li>
-				    <li class="nav-item">
-				      <a class="pr-5 primary-color" href="#">About</a>
-				    </li>
-				  </ul>
-
-				</nav>
+			    
 
 
 		</div>		
 	</header>
+
+	<?php include('banner-component/banner-with-nav.php'); ?>
 
 	<section>
 		this is the container for travel site
@@ -62,7 +48,7 @@
 
 	<script src="js/jquery-3.3.1.js"></script>
 	<script src="js/popper.min.js"></script>
-
+	<script src="js/owl-carousel.js"></script>
 	<script src="js/bootstrap-4.min.js"></script>
 
 	<script>
@@ -75,6 +61,25 @@
 		  $(".menu").toggleClass("active");
 		};
 		$(".button").on('click', expand);
+    </script>
+
+    <script>
+    	$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
     </script>
 	
 </body>

@@ -126,3 +126,57 @@ nav ul li a:hover{
 	text-decoration: none;
 }
 /*navigation bar css*/
+
+/*banner slider css*/
+
+
+.slider-banner.banner{
+	position: relative;
+}
+
+.fixed-top-banner{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index:1;
+	width: 100%;
+}
+
+.fixed-top-banner .top-nav {
+	background-color: rgba(0,0,0,0.7);
+	border:none;
+}
+
+.fixed-top-banner .top-nav, .fixed-top-banner .navbar ul li a{
+	color: #fff;
+}
+
+.banner .slide{
+	height: 100vh;
+	width: 100%;
+	background-size:inherit;
+	position: relative;
+	color: #fff;
+}
+
+.banner .slider-text-box{
+	background-color: rgba(255, 128, 63, 0.3); /*add gradient here*/
+	background-color: rgba(255, 255, 255, 0.3); /*add gradient here*/
+	position: absolute;
+	top: 50%;
+	left:5%;
+	padding:3rem;
+	border-left: 5px solid #ff803f;
+	max-width: 50%;
+	transform: translateY(-50%);
+}
+
+.banner .slider-text-box h1{
+	font-size: 4rem;
+}
+
+.banner .slider-text-box p{
+	font-size: 2rem;
+}
+
+/*banner slider css*/
