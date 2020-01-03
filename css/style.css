@@ -5,7 +5,20 @@ body{
 .primary-background{
 	background-color: #ff803f;
 	color: #fff;
+	border:2px solid #ff803f;
 }
+
+.primary-background-reverse{
+	color: #ff803f;
+	border:2px solid #ff803f;
+	background-color: #fff;
+}
+
+.primary-background-reverse:hover{
+	background-color: #ff803f;
+	color: #fff;
+}
+
 .primary-color{
 	color: #ff803f;
 }
@@ -179,4 +192,55 @@ nav ul li a:hover{
 	font-size: 2rem;
 }
 
+.owl-theme .owl-controls{
+	position: absolute;
+	bottom: 25%;
+	left: 5%;
+}
+
+.owl-controls .owl-page{
+	display: inline-block;
+	border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: #333;
+    margin: 0 8px 0 0;
+}
+
+.owl-controls .owl-page span{
+	margin:9px !important;
+	background: #ff803f !important;
+	opacity: 1;
+}
 /*banner slider css*/
+
+/*top destinations card*/
+.top-destinations-card-1{
+	height: 280px;
+	position: relative;
+}
+
+.card-overlay{
+	position: absolute;
+	background-color: rgba(0,0,0,0.3);
+	height: 100%;
+	width: 100%;
+	top:0;
+	left:0;
+}
+
+.top-destinations-card-1:hover .card-overlay{
+	background-color: rgba(0,0,0,0.7);
+	border-bottom: 5px solid #ff803f;
+}
+
+.card-overlay:hover .overlay-text{
+	bottom:20px;
+}
+
+.overlay-text{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+/*top destinations card*/

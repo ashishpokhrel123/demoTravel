@@ -1257,7 +1257,7 @@ if ( typeof Object.create !== "function" ) {
 		rewindNav : true,
 		scrollPerPage : false,
 
-		pagination : false,
+		pagination : true,
 		paginationNumbers: false,
 
 		responsive: true,

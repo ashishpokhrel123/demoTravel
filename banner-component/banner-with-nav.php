@@ -13,6 +13,7 @@
 		    			We travel together. Move whole Nepal. Eat dal bhat. 
 		    		</p>
 		    		<a href="" class="btn primary-background">Click me!</a>
+		    		<a href="" class="btn primary-background-reverse">Click me too!</a>
 		    	</div>
 		    </div>
 		    <div class="slide" style="background: url('https://www.water-energy-food.org/fileadmin/user_upload/johannes-ludwig-348591-unsplash.jpg') center center no-repeat;">
@@ -22,6 +23,7 @@
 		    			We travel together. Move whole Nepal. Eat dal bhat. 
 		    		</p>
 		    		<a href="" class="btn primary-background">Click me!</a>
+		    		<a href="" class="btn primary-background-reverse">Click me too!</a>
 		    	</div>
 		    </div>
 		</div>
