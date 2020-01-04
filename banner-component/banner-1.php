@@ -1,5 +1,4 @@
-	<section class="banner slide-banner">
-		
+	<section class="banner slide-banner">		
 		<div class="owl-carousel owl-theme">
 		    <div class="slide" style="background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg') center center no-repeat;">
 		    	<div class="slider-text-box">

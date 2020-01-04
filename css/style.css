@@ -26,6 +26,10 @@ body{
 	box-shadow: 1px 1px 2px #d5d5d5;
 }
 
+.dim{
+	color: #666;
+}
+
 /*top-nav css*/
 
 .top-nav{
@@ -39,63 +43,6 @@ body{
 /*top-nav css*/
 
 
-/*navigation bar css*/
-/*.menu{
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  padding: 0;
-  overflow: hidden;
-  background: #212121;
-  width: 250px;
-  box-sizing: border-box;
-  transition: all 250ms;
-  -webkit-transform: translateZ(0) translateX(-100%);
-  transform: translateZ(0) translateX(-100%);
-  text-align:center;
-  box-shadow: 0 0 10px #000;
-}
-
-.active{
-  transform: translateZ(0) translateX(0);
-  transform: translateZ(0) translateX(0);
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-.content{
-  position:relative;
-  width:400px;
-}
-.button{
-  width:50px;
-  height:50px;
-  padding: 10px;
-  cursor:pointer;
-  background-color: red;
-}
-.line{
-	width: 40px;
-	height: 2px;
-  background-color:#fff;
-	transition: transform 0.3s ease, background 0.3s ease, opacity 0.3s ease, top 0.3s ease;
-}
-.line.first{
-  transform: translateX(-10px) translateY(22px) rotate(-90deg);
-}
-.line.second{
-  transform: translateX(-10px) translateY(19px) rotate(0deg);
-}
-.button.on .line.top{
-	width: 40px;
-	transform: translateX(-10px) translateY(20px) rotate(45deg);
-}
-.button.on .line.bottom{
-	width: 40px;
-	transform: translateX(-10px) translateY(17px)rotate(-45deg);
-}*/
-
-/*navigation bar css*/
 
 /*navigation bar css*/
 nav.navbar{
@@ -192,13 +139,13 @@ nav ul li a:hover{
 	font-size: 2rem;
 }
 
-.owl-theme .owl-controls{
+.banner .owl-theme .owl-controls{
 	position: absolute;
 	bottom: 25%;
 	left: 5%;
 }
 
-.owl-controls .owl-page{
+.banner .owl-controls .owl-page{
 	display: inline-block;
 	border-radius: 50%;
     height: 30px;
@@ -207,14 +154,14 @@ nav ul li a:hover{
     margin: 0 8px 0 0;
 }
 
-.owl-controls .owl-page span{
+.banner .owl-controls .owl-page span{
 	margin:9px !important;
 	background: #ff803f !important;
 	opacity: 1;
 }
 /*banner slider css*/
 
-/*top destinations card*/
+/*top destinations card 1*/
 .top-destinations-card-1{
 	height: 280px;
 	position: relative;
@@ -242,5 +189,46 @@ nav ul li a:hover{
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+}
+/*top destinations card*/
+
+/*top destinations card 2*/
+.top-destinations-card-2{
+background-color: #fff;
+position: relative;
+}
+
+.card-image{
+	height: 200px;
+}
+
+.top-destinations-card-2 .card-price h6{
+	font-size: 21px;
+}
+
+.owl-carousel2 .owl-controls .owl-buttons div {
+    padding: 10px 20px !important;
+    font-size: 16px !important;
+    border-radius: 0px !important;
+    background: #ff803f !important;
+    opacity: 1 !important;
+}
+
+span.price-tag{
+	position: absolute;
+	top: 20px;
+	left: -10px;
+	z-index: 3;
+}
+span.price-tag:before{
+	position: absolute;
+	content: '';
+	bottom: -12px;
+    left: -2px;
+	z-index: 2;
+	/*border-left: 15px solid red;*/
+	border-right: 10px solid #a04211;
+	/*border-top: 15px solid yellow;*/
+	border-bottom: 10px solid transparent;
 }
 /*top destinations card*/

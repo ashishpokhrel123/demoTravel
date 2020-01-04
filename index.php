@@ -42,8 +42,9 @@
 	<section class="py-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 d-flex justify-content-center">
-					<h2 class="font-weight-bold mb-5">Top Destinations</h2>
+				<div class="col-12 text-center py-3">
+					<h2 class="font-weight-bold mb-0">Top Destinations</h2>
+					<p><a href="">View all Destinations </a></p>	
 				</div>
 			</div>
 			<div class="row">
@@ -106,6 +107,41 @@
 			</div>
 		</div>
 	</section>
+
+	<section class="py-5" style="background: url('https://www.steppestravel.com/app/										uploads/2019/06/antarctic-landscapes-from-ship-1920x1080.jpg') center center no-repeat;">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center py-3">
+					<h2 class="font-weight-bold mb-0">Top Destinations</h2>
+					<p><a href="">View all Destinations </a></p>	
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="owl-carousel2 owl-theme">
+					<div class="px-3">
+						<?php include('card-component/top-destinations-card-2.php'); ?>
+					</div>
+					<div class="px-3">
+						<?php include('card-component/top-destinations-card-3.php'); ?>
+					</div>
+					<div class="px-3">
+						<?php include('card-component/top-destinations-card-4.php'); ?>
+					</div>
+					<div class="px-3">
+						<?php include('card-component/top-destinations-card-2.php'); ?>
+					</div>
+					<div class="px-3">
+						<?php include('card-component/top-destinations-card-2.php'); ?>
+					</div>
+					<div class="px-3">
+						<?php include('card-component/top-destinations-card-2.php'); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
 	<footer>
 		this is the footer section
 	</footer>
@@ -120,30 +156,45 @@
     </script>
 
     <script>
-    	function expand(){
-		  $(this).toggleClass("on");
-		  $(".menu").toggleClass("active");
-		};
-		$(".button").on('click', expand);
+    	$('.owl-carousel').owlCarousel({
+		    loop:true,
+		    margin:10,
+		    nav:true,
+		    responsive:{
+		        0:{
+		            items:1
+		        },
+		        600:{
+		            items:3
+		        },
+		        1000:{
+		            items:5
+		        }
+		    }
+		})
     </script>
 
     <script>
-    	$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
+    	$('.owl-carousel2').owlCarousel({
+    		items : 3,
+		    loop:true,
+		    margin:10,
+		    navigation : true,
+			navigationText : ["Previous","Next"],
+		    nav:true,
+		    pagination:false,
+		    responsive:{
+		        0:{
+		            items:1
+		        },
+		        600:{
+		            items:3
+		        },
+		        1000:{
+		            items:5
+		        }
+		    }
+		})
     </script>
 	
 </body>
