@@ -23,7 +23,7 @@ body{
 	color: #ff803f;
 }
 .box-shadow{
-	box-shadow: 1px 1px 2px #d5d5d5;
+	box-shadow: 5px 5px 10px #eee;
 }
 
 .dim{
@@ -232,3 +232,18 @@ span.price-tag:before{
 	border-bottom: 10px solid transparent;
 }
 /*top destinations card*/
+
+.side-card .side-card-image{
+	height: 265px;
+
+}
+
+.side-stars .fa-star{
+	font-size: 14px;
+}
+
+/*footer*/
+footer{
+	background-color: #202020;
+}
+/*footer*/

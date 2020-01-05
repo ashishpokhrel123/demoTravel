@@ -120,7 +120,7 @@
 			<div class="row">
 				<div class="owl-carousel2 owl-theme">
 					<div class="px-3">
-						<?php include('card-component/top-destinations-card-2.php'); ?>
+						<?php include('card-component/top-destinations-card-4.php'); ?>
 					</div>
 					<div class="px-3">
 						<?php include('card-component/top-destinations-card-3.php'); ?>
@@ -129,7 +129,7 @@
 						<?php include('card-component/top-destinations-card-4.php'); ?>
 					</div>
 					<div class="px-3">
-						<?php include('card-component/top-destinations-card-2.php'); ?>
+						<?php include('card-component/top-destinations-card-5.php'); ?>
 					</div>
 					<div class="px-3">
 						<?php include('card-component/top-destinations-card-2.php'); ?>
@@ -142,9 +142,27 @@
 		</div>
 	</section>
 
-	<footer>
-		this is the footer section
-	</footer>
+	<section class="py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center py-3">
+					<h2 class="font-weight-bold mb-0">Top Destinations</h2>
+					<p><a href="">View all Destinations </a></p>	
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-9 col-6 px-3">
+					<?php include('card-component/top-destinations-card-6.php'); ?>
+					<?php include('card-component/top-destinations-card-6.php'); ?>
+					<?php include('card-component/top-destinations-card-6.php'); ?>
+					<?php include('card-component/top-destinations-card-6.php'); ?>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<?php include('footer-component/footer-1.php'); ?>
 
 	<script src="js/jquery-3.3.1.js"></script>
 	<script src="js/popper.min.js"></script>
