@@ -162,7 +162,7 @@
 		</div>
 	</section>
 
-	<?php include('footer-component/footer-1.php'); ?>
+	<?php include('footer-component/footer-2.php'); ?>
 
 	<script src="js/jquery-3.3.1.js"></script>
 	<script src="js/popper.min.js"></script>

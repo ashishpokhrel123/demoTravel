@@ -255,7 +255,7 @@ footer .social li a{
 	color:#ff803f;
 }
 
-footer .quick-links a{
+footer .quick-links a, footer p{
 	color: #bbb;
 }
 /*footer*/
