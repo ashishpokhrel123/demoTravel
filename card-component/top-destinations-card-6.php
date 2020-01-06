@@ -64,7 +64,7 @@
 						</p>
 					</p>
 					<p>
-						<a href="" class="btn btn-primary">View Details</a>
+						<a href="" class="btn primary-background">View Details</a>
 					</p>
 				</div>
 			</div>

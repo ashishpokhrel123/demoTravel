@@ -120,8 +120,9 @@ nav ul li a:hover{
 }
 
 .banner .slider-text-box{
-	background-color: rgba(255, 128, 63, 0.3); /*add gradient here*/
+	
 	background-color: rgba(255, 255, 255, 0.3); /*add gradient here*/
+	background-color: rgba(63, 63, 63, 0.55); /*add gradient here*/
 	position: absolute;
 	top: 50%;
 	left:5%;
@@ -162,6 +163,7 @@ nav ul li a:hover{
 /*banner slider css*/
 
 /*top destinations card 1*/
+
 .top-destinations-card-1{
 	height: 280px;
 	position: relative;
@@ -242,6 +244,25 @@ span.price-tag:before{
 	font-size: 14px;
 }
 
+/*book with us*/
+.book-with-us{
+	color: #fff;
+}
+
+.book-with-us > div > div {
+	padding:50px 0;
+}
+
+.book-with-us .left{
+	min-width: 30%;
+}
+
+.book-with-us .book-r .book-r-icon i{
+	font-size: 45px;
+}
+
+/*book with us*/
+
 /*footer*/
 footer{
 	background-color: #202020;
@@ -255,7 +276,7 @@ footer .social li a{
 	color:#ff803f;
 }
 
-footer .quick-links a, footer p{
+footer .quick-links a, footer p, .cover-background .section-link-header {
 	color: #bbb;
 }
 /*footer*/

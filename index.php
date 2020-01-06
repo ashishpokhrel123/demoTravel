@@ -108,12 +108,12 @@
 		</div>
 	</section>
 
-	<section class="py-5" style="background: url('https://www.steppestravel.com/app/										uploads/2019/06/antarctic-landscapes-from-ship-1920x1080.jpg') center center no-repeat;">
+	<section class="py-5 cover-background" style="background: url('images/blue-gradient.jpg') center center no-repeat; background-size: cover;">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 text-center py-3">
-					<h2 class="font-weight-bold mb-0">Top Destinations</h2>
-					<p><a href="">View all Destinations </a></p>	
+					<h2 class="font-weight-bold mb-0 primary-color">Top Destinations</h2>
+					<p><a class="section-link-header" href="">View all Destinations </a></p>	
 				</div>
 			</div>
 
@@ -160,6 +160,49 @@
 				
 			</div>
 		</div>
+	</section>
+
+	<section class="book-with-us">
+			<div class="d-flex">
+				<div class="left text-right px-5" style="background: url('images/blue-gradient.jpg') center center no-repeat; background-size: cover;">
+					<h3 class="m-0">Why book with us?</h5>
+				</div>
+				<div class="flex-grow-1 px-5 bg-primary d-flex">
+					<div class="book-r d-flex mr-5 ml-2">
+						<div class="book-r-icon mr-3">
+							<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+						</div>
+						<div class="book-r-text">
+							<h5 class="text-uppercase mb-0">40,000+ Customers</h5>
+							<p class="mb-0">
+								Lorem ipsum dolor sit amet
+							</p>
+						</div>
+					</div>
+					<div class="book-r d-flex mr-5 ml-2">
+						<div class="book-r-icon mr-3">
+							<i class="fa fa-trophy" aria-hidden="true"></i>
+						</div>
+						<div class="book-r-text">
+							<h5 class="text-uppercase mb-0">40,000+ Customers</h5>
+							<p class="mb-0">
+								Lorem ipsum dolor sit amet
+							</p>
+						</div>
+					</div>
+					<div class="book-r d-flex mr-5 ml-2">
+						<div class="book-r-icon mr-3">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</div>
+						<div class="book-r-text">
+							<h5 class="text-uppercase mb-0">40,000+ Customers</h5>
+							<p class="mb-0">
+								Lorem ipsum dolor sit amet
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>		
 	</section>
 
 	<?php include('footer-component/footer-2.php'); ?>
