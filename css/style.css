@@ -246,4 +246,16 @@ span.price-tag:before{
 footer{
 	background-color: #202020;
 }
+
+footer h5{
+	color: #ff803f;
+}
+
+footer .social li a{
+	color:#ff803f;
+}
+
+footer .quick-links a{
+	color: #bbb;
+}
 /*footer*/
