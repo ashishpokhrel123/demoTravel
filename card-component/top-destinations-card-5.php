@@ -1,5 +1,6 @@
-<div class="top-destinations-card-2">
-	<div class="card-image" style="background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg') center center no-repeat;">
+<div class="top-destinations-card-2 linked-cards">
+	<a href="travel-detail2.php" class="card-link"></a>
+	<div class="card-image" style="background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg');background-position: center center;background-repeat: no-repeat;">
 	</div>
 	<span class="price-tag primary-background px-4 py-1">
 		10% Off

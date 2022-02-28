@@ -1,119 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Travel Site</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap-4.min.css">
-	<link rel="stylesheet" type="text/css" href="css/slick-slider.css">
-	<link rel="stylesheet" type="text/css" href="css/animate.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/owl-carousel.css">
-	<link rel="stylesheet" type="text/css" href="css/owl-theme.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
-</head>
-<body>
-	
-	<header>
-		<div>
-			  <!-- <div class="menu">
-			    <ul class="d-flex flex-column">
-			       <li><a href=""><i class="fa fa-terminal"></i>home</a></li>
-			       <li><a href=""><i class="fa fa-codepen"></i>about</a></li>
-			       <li><a href=""><i class="fa fa-newspaper-o"></i>news</a></li>
-			       <li><a href=""><i class="fa fa-paper-plane-o"></i>contact</a></li>
-			    </ul>
-			  </div>
-			  <div class="content">
-			    <div class="button">
-			      <div class="line first top"></div>
-			      <div class="line second bottom"></div>
-			    </div>
-			  </div> -->
-
-			    
-
-
-		</div>		
-	</header>
+<?php include('header-component/head.php'); ?>
 
 	<?php include('banner-component/banner-with-nav.php'); ?>
+
+	
 
 	<section class="py-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 text-center py-3">
-					<h2 class="font-weight-bold mb-0">Top Destinations</h2>
-					<p><a href="">View all Destinations </a></p>	
+					<h2 class="font-weight-bold mb-0">Featured locations</h2>
+					<p><a href="tour.php">View all Destinations </a></p>	
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-3 col-6 px-3">
-					<div class="top-destinations-card-1" style="background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg') center center no-repeat;">
-						<div class="card-overlay text-white">
-							<div class="overlay-text d-flex p-2">
-								<div class="location mr-auto">
-									<span class="mr-2"><i class="fa fa-map-marker" aria-hidden="true"></i></span> <span class="font-weight-bold">South America </span>
-								</div>
-								<div class="time">
-									8 Hours
-								</div>
-							</div>
-						</div>
-					</div>
+				<div class="col-md-4 col-sm-6 px-3 mb-3">
+					<?php include('card-component/top-destinations-card-1.php') ?>
 				</div>
-				<div class="col-sm-3 col-6 px-3">
-					<div class="top-destinations-card-1" style="background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg') center center no-repeat;">
-						<div class="card-overlay text-white">
-							<div class="overlay-text d-flex p-2">
-								<div class="location mr-auto">
-									<span class="mr-2"><i class="fa fa-map-marker" aria-hidden="true"></i></span> <span class="font-weight-bold">South America </span>
-								</div>
-								<div class="time">
-									8 Hours
-								</div>
-							</div>
-						</div>
-					</div>
+				<div class="col-md-4 col-sm-6 px-3 mb-3">
+					<?php include('card-component/top-destinations-card-1.php') ?>
 				</div>
-				<div class="col-sm-3 col-6 px-3">
-					<div class="top-destinations-card-1" style="background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg') center center no-repeat;">
-						<div class="card-overlay text-white">
-							<div class="overlay-text d-flex p-2">
-								<div class="location mr-auto">
-									<span class="mr-2"><i class="fa fa-map-marker" aria-hidden="true"></i></span> <span class="font-weight-bold">South America </span>
-								</div>
-								<div class="time">
-									8 Hours
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-3 col-6 px-3">
-					<div class="top-destinations-card-1" style="background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg') center center no-repeat;">
-						<div class="card-overlay text-white">
-							<div class="overlay-text d-flex p-2">
-								<div class="location mr-auto">
-									<span class="mr-2"><i class="fa fa-map-marker" aria-hidden="true"></i></span> <span class="font-weight-bold">South America </span>
-								</div>
-								<div class="time">
-									8 Hours
-								</div>
-							</div>
-						</div>
-					</div>
+				<div class="col-md-4 col-sm-6 px-3 mb-3">
+					<?php include('card-component/top-destinations-card-1.php') ?>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	<section class="py-5 cover-background" style="background: url('images/blue-gradient.jpg') center center no-repeat; background-size: cover;">
+	<section class="py-5" style="background-image: linear-gradient(#ffffff, #f5f5f5);">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center py-3">
+					<h1 class="font-weight-bold mb-5">Live unforgettable experience</h1>
+					<div class="text-container row align-items-center">
+						<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg" class="col-md-6 col-12 order-md-2">
+						<div class="col-md-6 col-12 mt-3"> 
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est	
+							</p>
+							<br/>
+							<a href="about.php" class="btn primary-background">More about us...</a>
+						</div>
+					</div>						
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="py-5 cover-background" style="background-image: url('images/blue-gradient.jpg');background-position: center center;background-repeat: no-repeat; background-size: cover;">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 text-center py-3">
 					<h2 class="font-weight-bold mb-0 primary-color">Top Destinations</h2>
-					<p><a class="section-link-header" href="">View all Destinations </a></p>	
+					<p><a class="section-link-header" href="tour.php">View all Destinations</a></p>	
 				</div>
 			</div>
 
@@ -146,117 +89,92 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12 text-center py-3">
-					<h2 class="font-weight-bold mb-0">Top Destinations</h2>
-					<p><a href="">View all Destinations </a></p>	
+					<h2 class="font-weight-bold mb-0">Dont miss ... </h2>
+					<p><a href="tour.php">View all Destinations </a></p>	
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-9 col-6 px-3">
+				<div class="col-md-12 col-lg-9 px-3">
+					<?php include('card-component/top-destinations-card-8.php'); ?>
 					<?php include('card-component/top-destinations-card-6.php'); ?>
+					<?php include('card-component/top-destinations-card-8.php'); ?>
 					<?php include('card-component/top-destinations-card-6.php'); ?>
-					<?php include('card-component/top-destinations-card-6.php'); ?>
-					<?php include('card-component/top-destinations-card-6.php'); ?>
-				</div>
-				
+				</div>				
 			</div>
 		</div>
 	</section>
 
-	<section class="book-with-us">
-			<div class="d-flex">
-				<div class="left text-right px-5" style="background: url('images/blue-gradient.jpg') center center no-repeat; background-size: cover;">
-					<h3 class="m-0">Why book with us?</h5>
+	<section class="py-5 cover-background" style="background-image: linear-gradient(#ffffff, #f5f5f5);">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 text-center py-3">
+					<h2 class="font-weight-bold mb-0">Blog</h2>
+					<p><a href="tour.php">View all Articals</a></p>	
 				</div>
-				<div class="flex-grow-1 px-5 bg-primary d-flex">
-					<div class="book-r d-flex mr-5 ml-2">
-						<div class="book-r-icon mr-3">
-							<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-sm-6 px-3 mb-3">
+					<?php include('card-component/top-destinations-card-7.php') ?>
+				</div>
+				<div class="col-md-4 col-sm-6 px-3 mb-3">
+					<?php include('card-component/top-destinations-card-7.php') ?>
+				</div>
+				<div class="col-md-4 col-sm-6 px-3 mb-3">
+					<?php include('card-component/top-destinations-card-7.php') ?>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+
+	<section class="book-with-us container-fluid">
+			<div class="row">
+				<div class="text-right col-sm-3 col-md-2" style="background-image: url('images/blue-gradient.jpg');background-position : center center; background-repeat: no-repeat; background-size: cover;">
+					<h3 class="p-2">Why book with us?</h3>
+				</div>
+				<div class="bg-primary col-sm-9 col-md-10">
+					<div class ="container">
+						<div class="row">
+							<div class="book-r d-flex col-sm-4">
+								<div class="book-r-icon mr-3">
+									<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+								</div>
+								<div class="book-r-text">
+									<h5 class="text-uppercase mb-0">40,000+ Customers</h5>
+									<p class="mb-0">
+										Lorem ipsum dolor sit amet
+									</p>
+								</div>
+							</div>
+							<div class="book-r d-flex col-sm-4">
+								<div class="book-r-icon mr-3">
+									<i class="fa fa-trophy" aria-hidden="true"></i>
+								</div>
+								<div class="book-r-text">
+									<h5 class="text-uppercase mb-0">40,000+ Customers</h5>
+									<p class="mb-0">
+										Lorem ipsum dolor sit amet
+									</p>
+								</div>
+							</div>
+							<div class="book-r d-flex col-sm-4">
+								<div class="book-r-icon mr-3">
+									<i class="fa fa-lock" aria-hidden="true"></i>
+								</div>
+								<div class="book-r-text">
+									<h5 class="text-uppercase mb-0">40,000+ Customers</h5>
+									<p class="mb-0">
+										Lorem ipsum dolor sit amet
+									</p>
+								</div>
+							</div>
 						</div>
-						<div class="book-r-text">
-							<h5 class="text-uppercase mb-0">40,000+ Customers</h5>
-							<p class="mb-0">
-								Lorem ipsum dolor sit amet
-							</p>
-						</div>
-					</div>
-					<div class="book-r d-flex mr-5 ml-2">
-						<div class="book-r-icon mr-3">
-							<i class="fa fa-trophy" aria-hidden="true"></i>
-						</div>
-						<div class="book-r-text">
-							<h5 class="text-uppercase mb-0">40,000+ Customers</h5>
-							<p class="mb-0">
-								Lorem ipsum dolor sit amet
-							</p>
-						</div>
-					</div>
-					<div class="book-r d-flex mr-5 ml-2">
-						<div class="book-r-icon mr-3">
-							<i class="fa fa-lock" aria-hidden="true"></i>
-						</div>
-						<div class="book-r-text">
-							<h5 class="text-uppercase mb-0">40,000+ Customers</h5>
-							<p class="mb-0">
-								Lorem ipsum dolor sit amet
-							</p>
-						</div>
-					</div>
+					</div>	
 				</div>
 			</div>		
 	</section>
 
+
 	<?php include('footer-component/footer-2.php'); ?>
 
-	<script src="js/jquery-3.3.1.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/owl-carousel.js"></script>
-	<script src="js/bootstrap-4.min.js"></script>
-
-	<script>
-      	new WOW().init();
-    </script>
-
-    <script>
-    	$('.owl-carousel').owlCarousel({
-		    loop:true,
-		    margin:10,
-		    nav:true,
-		    responsive:{
-		        0:{
-		            items:1
-		        },
-		        600:{
-		            items:3
-		        },
-		        1000:{
-		            items:5
-		        }
-		    }
-		})
-    </script>
-
-    <script>
-    	$('.owl-carousel2').owlCarousel({
-    		items : 3,
-		    loop:true,
-		    margin:10,
-		    navigation : true,
-			navigationText : ["Previous","Next"],
-		    nav:true,
-		    pagination:false,
-		    responsive:{
-		        0:{
-		            items:1
-		        },
-		        600:{
-		            items:3
-		        },
-		        1000:{
-		            items:5
-		        }
-		    }
-		})
-    </script>
-	
-</body>
-</html>
+	<?php include('footer-component/foot.php'); ?>

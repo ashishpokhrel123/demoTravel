@@ -1,5 +1,6 @@
-<div class="top-destinations-card-2">
-	<div class="card-image" style="background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg') center center no-repeat;">
+<div class="top-destinations-card-2 linked-cards">
+	<a href="travel-detail2.php" class="card-link"></a>
+	<div class="card-image" style="background-image: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg');background-position: center center;background-repeat: no-repeat;">
 	</div>
 	<div class="card-text py-4 px-3 d-flex">
 		<div class="card-desc">
@@ -15,7 +16,7 @@
 			</p>
 		</div>
 		<div class="card-price ml-auto pl-4">
-			<small class="dim"><strike>$1800</strike></small>
+			<h6 class="dim strike">$1800</h6>
 			<h6 class="font-weight-bold text-success"> 
 				$1300
 			</h6>
