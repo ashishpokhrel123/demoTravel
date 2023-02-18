@@ -32,7 +32,7 @@
 				<div class="col-12 text-center py-3">
 					<h1 class="font-weight-bold mb-5">Live unforgettable experience</h1>
 					<div class="text-container row align-items-center">
-						<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg" class="col-md-6 col-12 order-md-2">
+						<img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg" class="col-md-6 col-12 order-md-2" alt="">
 						<div class="col-md-6 col-12 mt-3"> 
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

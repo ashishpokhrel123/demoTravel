@@ -1,4 +1,4 @@
-<div class="row border-bottom pb-5 mb-5 travel-detail-review">
+<div class="row border-bottom pb-5 travel-detail-review">
 					<div class="col-md-3"><h5 class="font-weight-bold">Comments</h5></div>
 					<div class="col-md-12">
 							<div class="card">

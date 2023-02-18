@@ -1,7 +1,7 @@
 <footer class="py-5">
-   <div class="container py-5">
+   <div class="container pt-5 pb-2">
       <div class="row">
-         <div class="col-md-3 col-sm-6">
+         <div class="col-sm-3 col-6 mb-3">
             <h5>Find us</h5>
             <!--headin5_amrc-->
             <p class="mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
@@ -9,7 +9,7 @@
             <p class="mb-2"><i class="fa fa-phone"></i>  +91-9999878398  </p>
             <p class="mb-2"><i class="fa fa fa-envelope"></i> info@example.com  </p>
          </div>
-         <div class="col-md-3 col-sm-6">
+         <div class="col-sm-3 col-6 mb-3">
             <h5>Quick links</h5>
             <!--headin5_amrc-->
             <ul class="quick-links list-unstyled">
@@ -22,7 +22,7 @@
             </ul>
             <!--quick-links ends here-->
          </div>
-         <div class="col-md-3 col-sm-6">
+         <div class="col-sm-3 col-6 mb-3">
             <h5>Quick links</h5>
             <!--headin5_amrc-->
             <ul class="quick-links list-unstyled">
@@ -35,7 +35,7 @@
             </ul>
             <!--quick-links ends here-->
          </div>
-         <div class="col-md-3 col-sm-6">
+         <div class="col-sm-3 col-6 mb-3">
             <h5>Follow us</h5>
             <!--headin5_amrc ends here-->
             <ul class="quick-links list-unstyled">

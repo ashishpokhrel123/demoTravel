@@ -65,9 +65,9 @@
 							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</p>
 
-						<div class="border-bold">
+						<!-- <div class="border-bold">
 							<img src="https://theo.minuspoint.com/wooobooru/_images/5f8c441bfa5f07cc4677e3dc2cda5cf5/14185%20-%20kane%20mask%20wwf.jpg" alt="" class="img-100">
-						</div>
+						</div> -->
 
 						
 						<p>
@@ -148,6 +148,52 @@
 		</div>
 	</section>
 
+<section class="book-with-us container-fluid">
+			<div class="row">
+				<div class="text-right col-sm-3 col-md-2" style="background-image: url('images/blue-gradient.jpg');background-position : center center; background-repeat: no-repeat; background-size: cover;">
+					<h3 class="p-2">Why book with us?</h3>
+				</div>
+				<div class="bg-primary col-sm-9 col-md-10">
+					<div class ="container">
+						<div class="row">
+							<div class="book-r d-flex col-sm-4">
+								<div class="book-r-icon mr-3">
+									<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+								</div>
+								<div class="book-r-text">
+									<h5 class="text-uppercase mb-0">40,000+ Customers</h5>
+									<p class="mb-0">
+										Lorem ipsum dolor sit amet
+									</p>
+								</div>
+							</div>
+							<div class="book-r d-flex col-sm-4">
+								<div class="book-r-icon mr-3">
+									<i class="fa fa-trophy" aria-hidden="true"></i>
+								</div>
+								<div class="book-r-text">
+									<h5 class="text-uppercase mb-0">40,000+ Customers</h5>
+									<p class="mb-0">
+										Lorem ipsum dolor sit amet
+									</p>
+								</div>
+							</div>
+							<div class="book-r d-flex col-sm-4">
+								<div class="book-r-icon mr-3">
+									<i class="fa fa-lock" aria-hidden="true"></i>
+								</div>
+								<div class="book-r-text">
+									<h5 class="text-uppercase mb-0">40,000+ Customers</h5>
+									<p class="mb-0">
+										Lorem ipsum dolor sit amet
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+			</div>		
+	</section>
 	
 
 

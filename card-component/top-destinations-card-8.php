@@ -11,7 +11,7 @@
 			<div class="media mb-3 linked-cards col-sm-6 top-destinations-card-6">
 				<a href="" class="card-link"></a>
 				<div class="col-4 px-0">
-					 <img src="images/blue-gradient.jpg" alt="" class="img-100" />
+					 <img src="images/nature-quote.jpg" alt="" class="img-100" />
 				</div>
 				<div class="col-8">
 					 <div class="media-body">
@@ -23,7 +23,7 @@
 			<div class="media mb-3 linked-cards col-sm-6 top-destinations-card-6">
 				<a href="" class="card-link"></a>
 				<div class="col-4 px-0">
-					 <img src="images/blue-gradient.jpg" alt="" class="img-100" />
+					 <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg" alt="" class="img-100" />
 				</div>
 				<div class="col-8">
 					 <div class="media-body">
@@ -35,7 +35,7 @@
 			<div class="media mb-3 linked-cards col-sm-6 top-destinations-card-6">
 				<a href="" class="card-link"></a>
 				<div class="col-4 px-0">
-					 <img src="images/blue-gradient.jpg" alt="" class="img-100" />
+					 <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg" alt="" class="img-100" />
 				</div>
 				<div class="col-8">
 					 <div class="media-body">
@@ -47,7 +47,7 @@
 			<div class="media mb-3 linked-cards col-sm-6 top-destinations-card-6">
 				<a href="" class="card-link"></a>
 				<div class="col-4 px-0">
-					 <img src="images/blue-gradient.jpg" alt="" class="img-100" />
+					 <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg" alt="" class="img-100" />
 				</div>
 				<div class="col-8">
 					 <div class="media-body">
@@ -59,7 +59,7 @@
 			<div class="media mb-3 linked-cards col-sm-6 top-destinations-card-6">
 				<a href="" class="card-link"></a>
 				<div class="col-4 px-0">
-					 <img src="images/blue-gradient.jpg" alt="" class="img-100" />
+					 <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg" alt="" class="img-100" />
 				</div>
 				<div class="col-8">
 					 <div class="media-body">
@@ -71,7 +71,7 @@
 			<div class="media mb-3 linked-cards col-sm-6 top-destinations-card-6">
 				<a href="" class="card-link"></a>
 				<div class="col-4 px-0">
-					 <img src="images/blue-gradient.jpg" alt="" class="img-100" />
+					 <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/nature-quotes-1557340276.jpg" alt="" class="img-100" />
 				</div>
 				<div class="col-8">
 					 <div class="media-body">

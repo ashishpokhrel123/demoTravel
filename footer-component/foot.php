@@ -4,6 +4,7 @@
 	<script src="js/popper.min.js"></script>
 	<script src="js/owl-carousel.js"></script>
 	<script src="js/bootstrap-4.min.js"></script>
+	<script src="js/fslightbox.js"></script>
 
 
 
@@ -83,6 +84,14 @@
 		  $(".search-box-form").toggleClass("d-none");		  
 		});
 	</script>
+
+	<script>
+		$(".iterinary-detail").click(function(){
+		  $(".iterinary-detail-table").toggleClass("collapse");		  
+		});
+	</script>
+
+	
 	
 </body>
 </html>

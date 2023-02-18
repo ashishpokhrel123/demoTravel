@@ -1,4 +1,4 @@
-				<nav class="navbar navbar-expand-sm px-5" id="nav">
+				<nav class="navbar navbar-expand-sm px-5">
 
 				  <!-- Links -->
 				  <ul class="navbar-nav">

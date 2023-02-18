@@ -11,7 +11,7 @@
 	<div class="container my-5">
 		<div class="row">
 			<div class="col-12">
-				<h1 class="font-weight-bold mt-3 mb-5 border-bottom pb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</h1>
+				<h1 class="font-weight-bold mt-3 mb-5 border-bottom pb-3">1 Day Trip Boat Journey In Bangkok. Enjoy A Great Time Alongside The River With Bangkok’s Boat Service</h1>
 			</div>
 			<div class="col-12 d-flex justify-content-end py-3 sticky-top">
 				<h4 class="font-weight-bold dim">Share this article : </h4>
@@ -22,7 +22,7 @@
 			</div>
 			<div class="col-12 feature-slider">
 				<div class="owl-carousel owl-theme">
-				    <div class="slide" style="background: url('images/cape9.jpg') center center no-repeat;">
+				    <div class="slide" style="background: url('images/travel-blog-1.png') center center no-repeat;">
 				    	<div class="slider-text-box">
 				    		<!-- <h1>Lets travel together</h1>
 				    		<p>
@@ -65,6 +65,9 @@
 								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 							</p>
+						</div>
+						<div class="detail-image my-2">
+							<img src="images/cape9.jpg" alt="" width="100%">
 						</div>
 						<div>
 							<h6 class="font-weight-bold">nine tails chakra</h6>

@@ -43,7 +43,7 @@
 				</div>
 			</div>
 			<div class="col-md-7 col-lg-8">
-				<?php include('component/iterinary.php'); ?>
+				<?php include('component/iterinary-2.php'); ?>
 
 				<?php include('component/comment-section.php'); ?>
 				
@@ -58,6 +58,14 @@
 			</div>
 		</div>
 	</div>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<?php include('component/testimonials.php'); ?>
+			</div>
+		</div>		
+	</section>
 
 	<section class="py-5 cover-background" style="background-image: linear-gradient(#ffffff, #f5f5f5);">
 			<div class="container">

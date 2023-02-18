@@ -8,6 +8,7 @@ html{
 }
 
 .primary-background{
+	/*background-color: #939634;*/
 	background-color: #ff803f;
 	color: #fff;
 	border:2px solid #ff803f;
@@ -26,6 +27,12 @@ html{
 	/*color: #ff0303;
 	*/
 }
+
+.sticky-top {
+	position: sticky;
+	top: 30px;
+}
+
 .box-shadow{
 	box-shadow: 5px 5px 10px #eee;
 }
@@ -140,6 +147,11 @@ nav.navbar{
 	*/
 	/*border-bottom:3px solid #ff803f;
 	*/
+}
+
+#navbar {
+	position : sticky;
+	top: 0;
 }
 nav ul li{
 	position: relative;
@@ -273,6 +285,11 @@ nav ul li a:hover{
 .card-image{
 	height: 200px;
 }
+
+.left-container .card-image{
+	height: 350px;
+}
+
 .top-destinations-card-2 .card-price h6{
 	font-size: 21px;
 }
@@ -399,18 +416,17 @@ input[type="checkbox"]{
   column-count:3;
 }
 
-.mas_gall div {
-  /*display: inline-block;*/
+.mas_gall a.img {
+  display: inline-block;
   margin-bottom: 1rem;
   /*padding: 0.2rem;*/
   width: 100%;
-  /*background: #efefef;*/
-  -webkit-column-break-inside: avoid;
+  /*-webkit-column-break-inside: avoid;
   column-break-inside: avoid;
-  page-break-inside: avoid; 
+  page-break-inside: avoid; */
 }
 
-.mas_gall div img {
+.mas_gall a.img img {
 	width: 100%;
 }
 /*gallery-images style*/
@@ -429,9 +445,16 @@ input[type="checkbox"]{
 
 .description-section p {
 	font-size: 18px;
-	line-height: 24px;
+	line-height: 27px;
 	color: #333;
 }
+
+.iterinary-content table tr td {
+	padding: 12px 0;
+	min-width: 75px;
+}
+
+
 /*travel detail*/
 
 @media only screen and (max-width : 990px) and (min-width : 768px) {
@@ -474,7 +497,7 @@ input[type="checkbox"]{
 	}
 
 	
-	.mobile-nav, .mobile-top-nav, .mobile-top-nav #nav{
+	.mobile-nav, .mobile-top-nav, .mobile-top-nav .navbar{
 		display: block;
 	}
 
@@ -497,7 +520,7 @@ input[type="checkbox"]{
 	}
 }
 
-@media only screen and(min-width: 480px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) and (min-width: 480px) {
 .banner .slide {
     	height:80vh;
 	}
